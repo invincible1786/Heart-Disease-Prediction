@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Data and model artifacts (keep folders, ignore generated files)
+data/processed/*.csv
+results/models/*.pkl
+results/models/*.joblib
+results/figures/*.png
+results/figures/*.jpg
+results/figures/*.svg
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+*.coverage
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
