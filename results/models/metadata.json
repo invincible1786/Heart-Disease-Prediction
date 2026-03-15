@@ -1,0 +1,35 @@
+{
+  "model_name": "CatBoostClassifier",
+  "metrics": {
+    "Model": "CatBoost",
+    "accuracy": 0.8913043478260869,
+    "precision": 0.9019607843137255,
+    "recall": 0.9019607843137255,
+    "f1": 0.9019607843137255,
+    "roc_auc": 0.9377092300334768
+  },
+  "hyperparameters": {
+    "depth": 7,
+    "learning_rate": 0.20749887431017747,
+    "iterations": 112
+  },
+  "feature_importance": {
+    "ST_Slope_Up": 0.1678031430035083,
+    "Oldpeak": 0.0693147512049583,
+    "Sex_M": 0.06066702598804339,
+    "Cholesterol": 0.06009550166302187,
+    "ST_Slope_Flat": 0.05766128171525711,
+    "ExerciseAngina_Y": 0.05031959808334749,
+    "MaxHR": 0.04095680832189033,
+    "ChestPainType_NAP": 0.039684170405491236,
+    "ChestPainType_ATA": 0.0313200625487257,
+    "FastingBS": 0.026875367574038123,
+    "Age": 0.02373942385862857,
+    "RestingBP": 0.019466391529263348,
+    "RestingECG_Normal": 0.012586444815617843,
+    "ChestPainType_TA": 0.007093172866505191,
+    "RestingECG_ST": 0.003258203496714752
+  },
+  "timestamp": "2026-03-15T21:11:42.964397",
+  "random_state": 42
+}
